@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'com.jakewharton.butterknife'
     id 'kotlin-kapt'
 }
 
@@ -52,6 +51,4 @@ dependencies {
     api 'com.alibaba:arouter-api:1.5.2'
     kapt 'com.alibaba:arouter-compiler:1.5.2'
     api 'com.github.hufeiyang.Android-AppLifecycleMgr:applifecycle-api:1.0.4'
-    implementation 'com.jakewharton:butterknife:10.2.3'
-    kapt 'com.jakewharton:butterknife-compiler:10.2.3'
 }
